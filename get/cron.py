@@ -1,9 +1,28 @@
 import time
 import os
 
+cpt = 0
 while True:
 
-  os.system('python3.5 net1m.py &')
+  #Every Minutes
+  os.system('python3.5 ~/monitor/get/net1m.py &')
   print (time.strftime("%H:%M:%S"))
+  os.system('~/monitor/var/clean.sh &')
+  os.system('python3.5 ~/monitor/script/plot_net30m.py &')
+  
+  #Every 4 min
+  if cpt%4 == 0:
+    a=0
+  #Every 12 min
+  if cpt%12 == 0:
+    a=0
+  #Every 48 min
+  if cpt%48 == 0:
+    a=0
+  #Every 2h24min
+  if cpt%144 == 0:
+    a=0
+    
+  cpt+=1
   time.sleep(60)
 

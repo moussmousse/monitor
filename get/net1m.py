@@ -21,4 +21,3 @@ prnt+="\n"
 
 with open("../var/net.30m", "a") as f:
     f.write(prnt)
-print(prnt)
