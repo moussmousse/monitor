@@ -30,7 +30,7 @@ for i in lines[-4:]:
 prnt = ""
 prnt+=time.strftime("%A %d %B %Y %H:%M*")
 for i in range(len(name)):
-  prnt+=(name[i]+";"+str(valup[i]//4)+";"+str(valdn[i]/4)+"|")
+  prnt+=(name[i]+";"+str(valup[i]//4)+";"+str(valdn[i]//4)+"|")
 prnt+="\n"
 with open("../var/net.6h", "a") as f:
     f.write(prnt)

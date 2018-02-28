@@ -9,6 +9,7 @@ while True:
   print (time.strftime("%H:%M:%S  -> ") + str(cpt))
   os.system('~/monitor/var/clean.sh &')
   os.system('python3.5 ~/monitor/script/plot_net30m.py &')
+  os.system('cp ~/monitor/graph/* ~/monitor/www')
   
   #Every 4 min
   if cpt%4 == 0:
