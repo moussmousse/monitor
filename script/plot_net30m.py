@@ -40,11 +40,13 @@ for i in range (len(time)):
   time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M')
   
 
-
-plt.plot_date(time, valdn[0],label=name[0]+": up",fmt="r-")
-plt.plot_date(time,valup[0],label=name[0]+": down",fmt="b-")
-plt.ylabel('Debit (Ko\s)')
-plt.grid(True)
-plt.xticks(rotation=22)
-plt.legend()   
-plt.savefig('test.png')
+for k in range (len(name)):
+  plt.figure()
+  plt.title(name[k])
+  plt.plot_date(time, valdn[k],label=name[k]+": up",fmt="r-")
+  plt.plot_date(time,valup[k],label=name[k]+": down",fmt="b-")
+  plt.ylabel('Debit (Ko\s)')
+  plt.grid(True)
+  plt.xticks(rotation=22)
+  plt.legend()   
+  plt.savefig("../graph/net30m_"+name[k]+".png")

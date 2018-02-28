@@ -12,7 +12,7 @@ while True:
   
   #Every 4 min
   if cpt%4 == 0:
-    a=0
+    os.system('python3.5 ~/monitor/get/net4m.py &')
   #Every 12 min
   if cpt%12 == 0:
     a=0
