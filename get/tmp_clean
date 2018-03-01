@@ -1,2 +1,2 @@
-mousse    17781  0.0  0.0   4288   792 pts/0    S+   16:05   0:00 sh -c ps -aux | grep plot_ > tmp_clean
-mousse    17783  0.0  0.0  12784  1020 pts/0    S+   16:05   0:00 grep plot_
+mousse    18467  0.0  0.0   4288   720 pts/0    S+   16:06   0:00 sh -c ps -aux | grep plot_ > tmp_clean
+mousse    18469  0.0  0.0  12784   952 pts/0    S+   16:06   0:00 grep plot_
