@@ -10,10 +10,3 @@ tail -n 100 ~/monitor/var/net.6h >> tmp
 rm ~/monitor/var/net.6h
 mv tmp ~/monitor/var/net.6h
 
-tail -n 100 ~/monitor/var/net.1D >> tmp
-rm ~/monitor/var/net.1D
-mv tmp ~/monitor/var/net.1D
-
-tail -n 100 ~/monitor/var/net.3D >> tmp
-rm ~/monitor/var/net.3D
-mv tmp ~/monitor/var/net.3D

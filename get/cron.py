@@ -8,9 +8,18 @@ while True:
   os.system('python3.5 ~/monitor/get/ram1s.py')
   os.system('~/monitor/var/clean_ram.sh &')
   
-  if cpt%2==0:
+  #Every 5 secondes
+  if cpt%5==0:
+    os.system('python3.5 ~/monitor/script/clean_process.py')
+  
+  #Every 10 secondes
+  if cpt%10==0:
     os.system('python3.5 ~/monitor/script/plot_ram1s.py &')
   
+  #Every 30 secondes
+  if cpt%30==0:
+    os.system('python3.5 ~/monitor/get/ram1m.py')
+    os.system('python3.5 ~/monitor/script/plot_ram1m.py &')
   
   #Every Minutes
   if cpt%60==0:
@@ -25,10 +34,12 @@ while True:
     os.system('python3.5 ~/monitor/script/plot_net2h.py &')
     
   #Every 10 min
-  if cpt%600 == 0:
-    os.system('python3.5 ~/monitor/get/disk10m.py &')
-    os.system('~/monitor/var/clean_disk.sh &')
-    os.system('python3.5 ~/monitor/script/plot_disk10m.py &')
+  #if cpt%600 == 0:
+  
+    #os.system('python3.5 ~/monitor/get/disk10m.py &')
+   # os.system('~/monitor/var/clean_disk.sh &')
+  #  os.system('python3.5 ~/monitor/script/plot_disk10m.py &')
+  
     
   #Every 12 min
   if cpt%720 == 0:

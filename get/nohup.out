@@ -1,0 +1,837 @@
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines-1])
+                              ^
+SyntaxError: invalid syntax
+10.0
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/disk10m.py", line 9, in <module>
+    prnt+= res[2]
+TypeError: Can't convert 'int' object to str implicitly
+['\n']
+[]
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_disk10m.py", line 15, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data 'Thursday 01 March 2018 11:08' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net2h.py", line 46, in <module>
+    plt.plot_date(time, valdn[k],label=name[k]+": up",fmt="r-")
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 3284, in plot_date
+    data=data, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1454, in plot_date
+    ret = self.plot(x, y, fmt, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 384, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 243, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (10,) and (8,)
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines-1])
+                              ^
+SyntaxError: invalid syntax
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1s' en lecture: Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1m.py", line 5, in <module>
+    with open ("../var/ram.1m") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../var/ram.1m'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 5, in <module>
+    with open ("../var/ram.1s") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../var/ram.1s'
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible de déplacer 'tmp_ram' vers '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+tail: impossible d'ouvrir '/home/mousse/monitor/var/ram.1m' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+mv: impossible de déplacer 'tmp_ram' vers '/home/mousse/monitor/var/ram.1s': Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/ram.1m': Aucun fichier ou dossier de ce type
+mv: impossible d'évaluer 'tmp_ram2': Aucun fichier ou dossier de ce type
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net2h.py", line 46, in <module>
+    plt.plot_date(time, valdn[k],label=name[k]+": up",fmt="r-")
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 3284, in plot_date
+    data=data, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1454, in plot_date
+    ret = self.plot(x, y, fmt, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 384, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 243, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (12,) and (10,)
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+mv: impossible d'évaluer 'tmp': Aucun fichier ou dossier de ce type
+10.0
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/disk10m.py", line 9, in <module>
+    prnt+= res[2]
+TypeError: Can't convert 'int' object to str implicitly
+['\n']
+[]
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net2h.py", line 46, in <module>
+    plt.plot_date(time, valdn[k],label=name[k]+": up",fmt="r-")
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 3284, in plot_date
+    data=data, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1454, in plot_date
+    ret = self.plot(x, y, fmt, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 384, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 243, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (17,) and (13,)
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+tail: impossible d'ouvrir '/home/mousse/monitor/var/net.1D' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/net.1D': Aucun fichier ou dossier de ce type
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '43:31' does not match format '%A %d %B %Y %H:%M:%S'
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data 'ch 2018 11:43:30' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 16, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data 'ch 2018 11:43:30' does not match format '%A %d %B %Y %H:%M:%S'
+  File "/home/mousse/monitor/get/ram1m.py", line 10
+    f2.write(lines[len(lines)-1)
+                               ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net2h.py", line 46, in <module>
+    plt.plot_date(time, valdn[k],label=name[k]+": up",fmt="r-")
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 3284, in plot_date
+    data=data, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1454, in plot_date
+    ret = self.plot(x, y, fmt, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 384, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_base.py", line 243, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (17,) and (13,)
+mv: impossible d'évaluer 'tmp': Aucun fichier ou dossier de ce type
+10.0
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/disk10m.py", line 9, in <module>
+    prnt+= res[2]
+TypeError: Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_disk10m.py", line 15, in <module>
+    time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M:%S')
+  File "/usr/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data 'Thursday 01 March 2018 11:38' does not match format '%A %d %B %Y %H:%M:%S'
+tail: impossible d'ouvrir '/home/mousse/monitor/var/net.6h' en lecture: Aucun fichier ou dossier de ce type
+rm: impossible de supprimer '/home/mousse/monitor/var/net.6h': Aucun fichier ou dossier de ce type
+['\n']
+[]
+sh: 1: /home/mousse/monitor/var/clean_ram.sh: Cannot allocate memory
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 40, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/figure.py", line 39, in <module>
+    from matplotlib.axes import Axes, SubplotBase, subplot_class_factory
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/__init__.py", line 4, in <module>
+    from ._subplots import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_subplots.py", line 10, in <module>
+    from matplotlib.axes._axes import Axes
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 39, in <module>
+    import matplotlib.tri as mtri
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/__init__.py", line 9, in <module>
+    from .triangulation import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/triangulation.py", line 6, in <module>
+    import matplotlib._tri as _tri
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_tri.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 19, in <module>
+    from .polynomial import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/polynomial.py", line 20, in <module>
+    from numpy.linalg import eigvals, lstsq, inv
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/__init__.py", line 51, in <module>
+    from .linalg import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/linalg.py", line 31, in <module>
+    from numpy.linalg import lapack_lite, _umath_linalg
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/linalg/lapack_lite.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net30m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 19, in <module>
+    from .polynomial import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/polynomial.py", line 20, in <module>
+    from numpy.linalg import eigvals, lstsq, inv
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/__init__.py", line 51, in <module>
+    from .linalg import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/linalg.py", line 31, in <module>
+    from numpy.linalg import lapack_lite, _umath_linalg
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/linalg/lapack_lite.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 34, in <module>
+    import matplotlib.collections as collections
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/collections.py", line 33, in <module>
+    import matplotlib.mlab as mlab
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/mlab.py", line 172, in <module>
+    import csv
+  File "/usr/lib/python3.5/csv.py", line 7, in <module>
+    from _csv import Error, __version__, writer, reader, register_dialect, \
+ImportError: /usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 34, in <module>
+    import matplotlib.collections as collections
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/collections.py", line 33, in <module>
+    import matplotlib.mlab as mlab
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/mlab.py", line 172, in <module>
+    import csv
+  File "/usr/lib/python3.5/csv.py", line 7, in <module>
+    from _csv import Error, __version__, writer, reader, register_dialect, \
+ImportError: /usr/lib/python3.5/lib-dynload/_csv.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC 7857 current, 7857 max
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 32, in <module>
+    import matplotlib.artist as martist
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/artist.py", line 16, in <module>
+    from .path import Path
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/path.py", line 25, in <module>
+    from . import _path, rcParams
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_path.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/ram1s.py", line 1, in <module>
+    import psutil
+  File "/usr/local/lib/python3.5/dist-packages/psutil/__init__.py", line 100, in <module>
+    from . import _pslinux as _psplatform
+  File "/usr/local/lib/python3.5/dist-packages/psutil/_pslinux.py", line 26, in <module>
+    from . import _psutil_linux as cext
+ImportError: /usr/local/lib/python3.5/dist-packages/psutil/_psutil_linux.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+mv: error while loading shared libraries: libattr.so.1: failed to map segment from shared object
+Segmentation fault
+/home/mousse/monitor/var/clean_ram.sh: 6: /home/mousse/monitor/var/clean_ram.sh: Cannot fork
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 32, in <module>
+    import matplotlib.artist as martist
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/artist.py", line 16, in <module>
+    from .path import Path
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/path.py", line 25, in <module>
+    from . import _path, rcParams
+ImportError: libstdc++.so.6: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 32, in <module>
+    import matplotlib.artist as martist
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/artist.py", line 16, in <module>
+    from .path import Path
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/path.py", line 25, in <module>
+    from . import _path, rcParams
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_path.cpython-35m-x86_64-linux-gnu.so: cannot map zero-fill pages
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 40, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/figure.py", line 39, in <module>
+    from matplotlib.axes import Axes, SubplotBase, subplot_class_factory
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/__init__.py", line 4, in <module>
+    from ._subplots import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_subplots.py", line 10, in <module>
+    from matplotlib.axes._axes import Axes
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 39, in <module>
+    import matplotlib.tri as mtri
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/__init__.py", line 9, in <module>
+    from .triangulation import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/triangulation.py", line 6, in <module>
+    import matplotlib._tri as _tri
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_tri.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+mv: impossible d'évaluer 'tmp': Aucun fichier ou dossier de ce type
+mv: error while loading shared libraries: cannot create cache for search path: Cannot allocate memory
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/disk10m.py", line 1, in <module>
+    import psutil
+  File "/usr/local/lib/python3.5/dist-packages/psutil/__init__.py", line 100, in <module>
+    from . import _pslinux as _psplatform
+  File "/usr/local/lib/python3.5/dist-packages/psutil/_pslinux.py", line 26, in <module>
+    from . import _psutil_linux as cext
+ImportError: /usr/local/lib/python3.5/dist-packages/psutil/_psutil_linux.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/net1m.py", line 1, in <module>
+    import psutil
+  File "/usr/local/lib/python3.5/dist-packages/psutil/__init__.py", line 100, in <module>
+    from . import _pslinux as _psplatform
+  File "/usr/local/lib/python3.5/dist-packages/psutil/_pslinux.py", line 26, in <module>
+    from . import _psutil_linux as cext
+ImportError: /usr/local/lib/python3.5/dist-packages/psutil/_psutil_linux.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_disk10m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net2h.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_net30m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/usr/local/lib/python3.5/dist-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /usr/local/lib/python3.5/dist-packages/numpy/core/multiarray.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 40, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/figure.py", line 39, in <module>
+    from matplotlib.axes import Axes, SubplotBase, subplot_class_factory
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/__init__.py", line 4, in <module>
+    from ._subplots import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_subplots.py", line 10, in <module>
+    from matplotlib.axes._axes import Axes
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py", line 39, in <module>
+    import matplotlib.tri as mtri
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/__init__.py", line 9, in <module>
+    from .triangulation import *
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/tri/triangulation.py", line 6, in <module>
+    import matplotlib._tri as _tri
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_tri.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 40, in <module>
+    from matplotlib.figure import Figure, figaspect
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/figure.py", line 34, in <module>
+    from matplotlib import image as mimage
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/image.py", line 27, in <module>
+    import matplotlib._image as _image
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_image.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1s.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/get/ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py", line 124, in <module>
+    from . import cbook
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/cbook/__init__.py", line 36, in <module>
+    import numpy as np
+  File "/usr/local/lib/python3.5/dist-packages/numpy/__init__.py", line 166, in <module>
+    from . import random
+  File "/usr/local/lib/python3.5/dist-packages/numpy/random/__init__.py", line 99, in <module>
+    from .mtrand import *
+ImportError: /usr/local/lib/python3.5/dist-packages/numpy/random/mtrand.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
+Traceback (most recent call last):
+  File "/home/mousse/monitor/script/plot_ram1m.py", line 1, in <module>
+    import matplotlib.pyplot as plt
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 32, in <module>
+    import matplotlib.colorbar
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/colorbar.py", line 36, in <module>
+    import matplotlib.contour as contour
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/contour.py", line 22, in <module>
+    import matplotlib.text as text
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/text.py", line 34, in <module>
+    from matplotlib.textpath import TextPath
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/textpath.py", line 20, in <module>
+    from matplotlib.mathtext import MathTextParser
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/mathtext.py", line 50, in <module>
+    import matplotlib._png as _png
+ImportError: /usr/local/lib/python3.5/dist-packages/matplotlib/_png.cpython-35m-x86_64-linux-gnu.so: failed to map segment from shared object
