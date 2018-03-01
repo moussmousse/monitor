@@ -4,28 +4,39 @@ import os
 cpt = 0
 while True:
 
+  #Every Secondes
+  os.system('python3.5 ~/monitor/get/ram1s.py')
+  os.system('~/monitor/var/clean_ram.sh &')
+  
+  if cpt%2==0:
+    os.system('python3.5 ~/monitor/script/plot_ram1s.py &')
+  
+  
   #Every Minutes
-  os.system('python3.5 ~/monitor/get/net1m.py &')
-  print (time.strftime("%H:%M:%S  -> ") + str(cpt))
-  os.system('~/monitor/var/clean.sh &')
-  os.system('python3.5 ~/monitor/script/plot_net30m.py &')
-  os.system('cp ~/monitor/graph/* ~/monitor/www')
+  if cpt%60==0:
+    os.system('python3.5 ~/monitor/get/net1m.py &')
+    os.system('~/monitor/var/clean_net.sh &')
+    os.system('python3.5 ~/monitor/script/plot_net30m.py &')
+    os.system('cp ~/monitor/graph/* ~/monitor/www')
   
   #Every 4 min
-  if cpt%4 == 0:
+  if cpt%240 == 0:
     os.system('python3.5 ~/monitor/get/net4m.py &')
     os.system('python3.5 ~/monitor/script/plot_net2h.py &')
+    
+  #Every 10 min
+  if cpt%600 == 0:
+    os.system('python3.5 ~/monitor/get/disk10m.py &')
+    os.system('~/monitor/var/clean_disk.sh &')
+    os.system('python3.5 ~/monitor/script/plot_disk10m.py &')
+    
   #Every 12 min
-  if cpt%12 == 0:
+  if cpt%720 == 0:
     os.system('python3.5 ~/monitor/get/net12m.py &')
     os.system('python3.5 ~/monitor/script/plot_net6h.py &')
-  #Every 48 min
-  if cpt%48 == 0:
-    a=0
-  #Every 2h24min
-  if cpt%144 == 0:
-    a=0
+  
+  
     
   cpt+=1
-  time.sleep(60)
+  time.sleep(1)
 

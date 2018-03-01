@@ -4,6 +4,7 @@ from datetime import datetime
 
 with open ("../var/net.6h") as f:
   lines = f.readlines()
+
 time=[]
 valup=[]
 valdn=[]
@@ -17,6 +18,7 @@ for i in lines:
   if fst:
     for j in parse2:
       parse3=j.split(';')
+      print(parse3)
       if parse3[0]!='\n':
         name.append(parse3[0])
         valup.append([])
@@ -39,7 +41,7 @@ for k in range (len(valup)):
 for i in range (len(time)):
   time[i]= datetime.strptime(time[i],'%A %d %B %Y %H:%M')
   
-
+print (name)
 for k in range (len(name)):
   plt.figure()
   plt.title(name[k])
